@@ -1,44 +1,9 @@
-.flip-card {
-  width: 300px;
-  height: 200px;
-  perspective: 1000px; /* Da profundidad al efecto */
+.linea-vertical {
+  border-left: 4px solid #ff9800;
+  padding-left: 20px;
 }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden; /* Oculta la parte trasera cuando está de frente */
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.flip-card-front img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.flip-card-back {
-    width: 100vh;
-  background: #222;
-  color: white;
-  transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.evento {
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.4);
 }
