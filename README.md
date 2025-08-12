@@ -16,7 +16,7 @@ El sitio cuenta con un diseño moderno y minimalista, acompañado de imágenes y
   - **Sobre mí:** Información sobre mi formación, intereses y motivaciones.  
   - **Proyectos:** Lista de proyectos destacados con enlaces a GitHub y capturas de pantalla.  
   - **Habilidades:** Tecnologías y herramientas dominadas, con iconos y descripciones.  
-  - **Experiencia laboral:** Empresas y puestos relevantes (aun sin experiencia por lo tanto coloqué un texto orientativo).  
+  - **Experiencia laboral:** Empresas y puestos relevantes (aun sin experiencia por lo tanto coloqué un texto representativo).  
   - **Contacto:** Formulario y enlaces a redes sociales.
  
 - **Animaciones y transiciones suaves** para mejorar la experiencia del usuario.  
@@ -26,7 +26,7 @@ El sitio cuenta con un diseño moderno y minimalista, acompañado de imágenes y
 
 - **HTML5** – Estructura y contenido del sitio.  
 - **CSS3** – Estilos, diseño, gradientes y animaciones.  
-- **JavaScript** – Interactividad (archivo `app.js`).  
-- **Google Fonts** – Tipografía moderna (`Poppins` y `Roboto`).  
+- **JavaScript** – Scroll suave (archivo `app.js`).  
+- **Google Fonts** – Tipografía moderna (`Poppins`).  
 
 
