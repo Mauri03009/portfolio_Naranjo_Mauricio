@@ -21,7 +21,7 @@
         <section class="contenidoPresentacion">
             <div class="presentacion">
                 <div class="yo">
-                    <h2>Hola!, Mi nombre es <br><span>M</span>auricio <span>N</span>icolás <span>N</span>aranjo</h1>
+                    <h1>Hola!, Mi nombre es <br><span>M</span>auricio <span>N</span>icolás <span>N</span>aranjo</h1>
                     <p>Ingeniero en Sistemas</p>
                 </div>
                 
@@ -62,19 +62,25 @@
             <h2>Mis Proyectos</h2>
             <div class="projects">
                 <div class="project">
-                    <img src="./img/proyectoPresentacion.png" alt="Targeta presentacion">
-                    <h2>Tarjeta de presentación</h2>
-                    <p>Este proyecto es una breve presentación personal desarrollada con un uso básico e inicial en HTML y CSS sin utilizar FlexBox. </p>
+                    <a href="https://github.com/Mauri03009/tarjeta-presentacion" target="_blank">
+                        <img src="./img/proyectoPresentacion.png" alt="Targeta presentacion">
+                        <h2>Tarjeta de presentación</h2>
+                        <p>Este proyecto es una breve presentación personal desarrollada con un uso básico e inicial en HTML y CSS sin utilizar FlexBox. </p>
+                    </a>                    
                 </div>
                 <div class="project">
-                    <img src="./img/projectoFlex.png" alt="Pagina con FLexBox">
-                    <h2>Pagina EasyWeb</h2>
-                    <p>Este proyecto es una réplica de una landing page moderna utilizando HTML, CSS y Flexbox. El diseño se centra en la presentación de una agencia creativa ficticia llamada "EasyWeb".</p>
+                    <a href="https://github.com/Mauri03009/tp3-clon-flexbox" target="_blank">
+                        <img src="./img/projectoFlex.png" alt="Pagina con FLexBox">
+                        <h2>Pagina EasyWeb</h2>
+                        <p>Este proyecto es una réplica de una landing page moderna utilizando HTML, CSS y Flexbox. El diseño se centra en la presentación de una agencia creativa ficticia llamada "EasyWeb".</p>
+                    </a>                    
                 </div>
                 <div class="project">
-                    <img src="./img/proyectoPresentacion.png" alt="Targeta presentacion">
-                    <h2>Tarjeta de presentación</h2>
-                    <p>Este proyecto es una breve presentación personal desarrollada con un uso básico e inicial en HTML y CSS sin utilizar de FlexBox. </p>
+                    <a href="https://github.com/Mauri03009/menu-digital" target="_blank">
+                        <img src="./img/proyectoMenu.jpg" alt="Menu Restaurante">
+                        <h2>Menu de Restaurante</h2>
+                        <p>Menú digital para un restaurante ficticio llamado Marü, utilizando HTML, CSS, Git y GitHub básico, sin utilización de FlexBox ni Grid </p>
+                    </a>                    
                 </div>
             </div>
         </section>
@@ -84,6 +90,7 @@
             <div class="icons">
                 <div>
                     <img src="./icons/html5.png" alt="">
+                    <h2>HTML</h2>
                     <ul>
                         <li>Creación de páginas web usando HTML5</li>
                         <li>Inserción de imagenes, videos y enlaces</li>
@@ -93,6 +100,7 @@
                 </div>
                 <div>
                     <img src="./icons/css3.png" alt="">
+                    <h2>CSS</h2>
                     <ul>
                         <li>Diseño con FlexBox</li>
                         <li>Estilización de formularios y elementos interactivos</li>
@@ -102,6 +110,7 @@
                 </div>
                 <div>
                     <img src="./icons/js.png" alt="">
+                    <h2>JavaScript</h2>
                     <ul>
                         <li>Manipulación del DOM y eventos</li>
                         <li>Uso de objetos, arrays y funciones</li>
@@ -110,7 +119,7 @@
                 </div>
                 <div>
                     <img src="./icons/python.png" alt="">
-                    
+                    <h2>Python</h2>
                     <ul>
                         <li>Sintaxis y estructuras basicas de datos</li>
                         <li>Programación orientada a objetos (POO)</li>
@@ -121,23 +130,40 @@
         </section>
 
         <section class="experience">
-            <div class="lineaVertical"></div>
+            <h2>Experiencia Laboral</h2>
             <div class="trabajo">
-                <h3>Globant</h3>
+                <p class="fecha">2016</p>
+                <h3><img src="./icons/GLOBANT.png" alt="Globant icono">Globant</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="trabajo">
-                <h3>Globant</h3>
+                <p class="fecha">2020</p>
+                <h3><img src="./icons/MOTOROLA.png" alt="">Motorola</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="trabajo">
-                <h3>Globant</h3>
+                <p class="fecha">2025</p>
+                <h3><img src="./icons/AMD.png" alt="">Advanced Micro Devices - AMD</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
         </section>
+
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <div class="formulario">
+                <form>
+                    <input type="text" placeholder="Tu nombre" required>
+                    <input type="email" placeholder="Tu email" required>
+                    <textarea placeholder="Tu mensaje" rows="7" required></textarea>
+                    <button class="enviarForm">Enviar</button>
+                </form>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>© 2025 Mauricio Naranjo. Todos los derechos reservados.</p>
+    </footer>
     <script src="./js/app.js"></script>
 </body>
 </html>
