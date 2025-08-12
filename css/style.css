@@ -468,8 +468,12 @@ footer {
     .contenidoPresentacion {
         gap: 2rem;
     }
+    .sobreMi{
+        width: auto;
+        height: auto;
+    }
     .about, .fotoAbout{
-        width: 400px;
+        width: 200%;
     }
     .project {
         width: 80%;
