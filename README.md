@@ -5,7 +5,7 @@ Este es un **portfolio web personal** desarrollado en **HTML5**, **CSS3** y **Ja
 ## 📷 Vista Previa  
 El sitio cuenta con un diseño moderno y minimalista, acompañado de imágenes y degradados para resaltar la información dentro de la página. 
 
-**A continuación el link a GitHub Pages para visualizar la página:**
+**A continuación el link a GitHub Pages para visualizar la página:  **
 🌐 https://mauri03009.github.io/portfolio_Naranjo_Mauricio/
 
 
