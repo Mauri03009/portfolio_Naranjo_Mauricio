@@ -30,11 +30,11 @@ body {
     padding: 0 1rem;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.5s ease-in-out;
 }
 
 .top nav a:hover {
-    color: gold;
-    text-decoration: underline; 
+    color: #00ADB5;  
 }
 
 .icon {
@@ -84,15 +84,6 @@ body {
     text-align: end;
 }
 
-.logo {
-    width: 40px;
-    height: 40px;
-}
-
-.logo:hover{
-    transform: scale(120%);
-}
-
 .fotoMia{
     width: 300px;
     height: 300px;
@@ -109,10 +100,10 @@ body {
 .boton {
     color: black;    
     width: 7rem;
-    padding: 10px;
+    padding: 0.4rem;
     border-radius: 1rem;
     border: none;
-    background-color: gold;
+    background-color: #00ADB5;
     font-size: medium;
     font-weight: 700;
     text-decoration: none;
@@ -122,7 +113,7 @@ body {
 }
 
 .boton:hover {
-    background-color: rgb(0, 173, 181);
+    background-color: gold;
     transform: scale(110%);
 }
 
@@ -139,7 +130,6 @@ body {
 
 .about {
     border-radius: 0.5rem;
-    font-size: medium;
     border-radius: 1rem;
     width: 35%;
     max-height: fit-content ;
@@ -158,6 +148,7 @@ body {
 
 .about p{
     justify-self: center;
+    font-size: smaller;
     text-align: justify;
     font-weight: lighter;
 }
@@ -173,10 +164,10 @@ body {
 .botonGaleria{
     color: black;    
     width: 10rem;
-    padding: 10px;
+    padding: 0.4rem;
     border-radius: 1rem;
     border: none;
-    background-color: gold;
+    background-color: #00ADB5;
     font-size: medium;
     font-weight: 700;
     text-decoration: none;
@@ -188,7 +179,7 @@ body {
 }
 
 .botonGaleria:hover {
-    background-color: rgb(0, 173, 181);
+    background-color: gold;
     transform: scale(105%);
 }
 
@@ -235,11 +226,12 @@ body {
     justify-content: stretch;
     align-items: center;
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .project:hover {
     transform: scale(105%);
+    border: 1px solid gold;
 }
 
 .project img{
@@ -251,7 +243,7 @@ body {
 
 .project p {
     margin-top: 1.5rem;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .project h2, p{
@@ -262,6 +254,7 @@ body {
 .abilities {
     background-color: rgb(33, 33, 33);
     padding: 4rem 4rem 4rem;
+    font-size: 14px;
 }
 
 .abilities h2 {
@@ -283,12 +276,13 @@ body {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     text-align: center;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
 }
 
 .icons div:hover{
     transform: translateY(-5px) scale(1.05);
     background: rgba(255, 255, 255, 0.01);
+    border: 1px solid gold;
 }
 
 .icons li {
@@ -307,10 +301,17 @@ body {
 
 .experience {
     background-color: rgb(33, 33, 33);
+    gap: 2rem;
+    text-align: center;
+}
+
+.experience .contenedorTrabajos {
+    padding: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
 
 .trabajo {
@@ -333,21 +334,20 @@ body {
 }
 
 .trabajo:hover{
-    border-left: 4px solid darkgoldenrod;
-    border-right: 4px solid darkgoldenrod;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
 }
 
 .fecha {
     border-radius: 1rem;
-    background-color: darkgoldenrod;
+    background-color: #004246;
     width: fit-content;
     height: fit-content;
     padding: 0 2rem 0;
     margin-bottom: 1rem;
-    text-align: center;
 }
 
-.contacto{
+.contacto {
     padding: 10rem;
     background: 
             linear-gradient(rgba(33,33,33,1), rgba(33, 33, 33, 0.9), rgba(0, 0, 0, 0.7), rgba(0,0,0,1)), 
@@ -383,6 +383,16 @@ input, textarea, .enviarForm {
 .enviarForm:hover {
     background-color: rgb(83, 83, 83);
     color: darkgoldenrod;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    padding: 0rem 0.5rem;
+}
+
+.logo:hover{
+    transform: scale(120%);
 }
 
 footer {
