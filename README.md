@@ -3,8 +3,10 @@
 Este es un **portfolio web personal** desarrollado en **HTML5**, **CSS3** y **JavaScript**, diseñado para mostrar mi perfil profesional, habilidades, proyectos realizados y mi experiencia laboral de forma atractiva.  
 
 ## 📷 Vista Previa  
-El sitio cuenta con un diseño moderno y minimalista, acompañado de imágenes y degradados para resaltar la información dentro de la página.  
-**A continuación el link a GitHub Pages para visualizar la página**
+El sitio cuenta con un diseño moderno y minimalista, acompañado de imágenes y degradados para resaltar la información dentro de la página. 
+
+**A continuación el link a GitHub Pages para visualizar la página:**
+🌐 https://mauri03009.github.io/portfolio_Naranjo_Mauricio/
 
 
 ## 🚀 Características  
